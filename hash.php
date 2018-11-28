@@ -32,7 +32,7 @@ if ($hashed_password === $stored_hash) {
 
 
 // Comparing hashed input to a previously hashed value (avoiding timing attacks)
-if (hash_equals($stored_password, $hashed_password)) {
+if (hash_equals($hashed_password, $stored_hash)) {
 	echo "The password is correct.";
 } else {
 	echo "The password is incorrect.";
