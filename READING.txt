@@ -20,6 +20,7 @@ Algorithms
 ``````````
 At least read the introduction of each. You don't need to understand the math.
 
+SHA-2 https://en.wikipedia.org/wiki/SHA-2
 SHA-3 https://en.wikipedia.org/wiki/SHA-3
 AES https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
 PBKDF2 https://en.wikipedia.org/wiki/PBKDF2
@@ -32,7 +33,10 @@ PHP Libraries
 `````````````
 
 Hash http://php.net/manual/en/book.hash.php
+- Especially hash() and hash_equals()
+
 OpenSSL http://php.net/manual/en/book.openssl.php
+
 Password Hashing http://php.net/manual/en/book.password.php
 Sodium http://php.net/manual/en/book.sodium.php
 
