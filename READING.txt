@@ -1,0 +1,51 @@
+Reading
+-------
+
+Information Security (https://en.wikipedia.org/wiki/Information_security)
+  - Basic principles/Key Concepts
+  - Risk Management/Access Control
+  - Risk Management/Cryptography
+
+Cryptographic hash function (https://en.wikipedia.org/wiki/Cryptographic_hash_function)
+
+Diffie-Hellman Key Exchange (https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
+
+Symmetric-key algorithm (https://en.wikipedia.org/wiki/Symmetric-key_algorithm)
+
+Public-key cryptography (https://en.wikipedia.org/wiki/Public-key_cryptography)
+
+Key Derivation function (https://en.wikipedia.org/wiki/Key_derivation_function)
+
+Algorithms
+``````````
+At least read the introduction of each. You don't need to understand the math.
+
+SHA-3 https://en.wikipedia.org/wiki/SHA-3
+AES https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+PBKDF2 https://en.wikipedia.org/wiki/PBKDF2
+Argon2 https://en.wikipedia.org/wiki/Argon2
+php-sodium https://paragonie.com/book/pecl-libsodium/read/00-intro.md
+RSA https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+Curve25519 https://en.wikipedia.org/wiki/Curve25519
+
+PHP Libraries
+`````````````
+
+Hash http://php.net/manual/en/book.hash.php
+OpenSSL http://php.net/manual/en/book.openssl.php
+Password Hashing http://php.net/manual/en/book.password.php
+Sodium http://php.net/manual/en/book.sodium.php
+
+Setup
+-----
+
+https://paragonie.com/book/pecl-libsodium/read/00-intro.md
+
+# apt-get install libsodium-dev
+
+Install pecl and phpize if it isn't already there
+# apt-get install php-pear php-dev
+
+# pecl install libsodium
+
+Add "extension=sodium.so" to your php.ini files
